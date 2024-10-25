@@ -18,3 +18,8 @@ sections of the CV on the page
 
 o Visual design: which color palette will you use? Which typography?
 Which page layout? Look for inspirational similar projects
+
+    Roboto
+    000000 black
+    ffffff white
+    212121 grey
