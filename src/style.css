@@ -1,7 +1,7 @@
 /* Font-size's, color, img px... */
 
 body{
-    margin: 0px;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-size: 20px;
@@ -17,6 +17,22 @@ body{
     font-weight: bold;
 }
 
+#decoration{
+    width: 120px;
+}
+
 header{
     background-color: #212121;
+}
+
+.main{
+    background: linear-gradient(#212121, #06bcc1);
+}
+
+footer{
+    background: linear-gradient(#06bcc1, #BBA0B2 50%);
+}
+
+body img{
+    width: 10px;
 }

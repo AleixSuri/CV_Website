@@ -1,14 +1,9 @@
 /* Elements settings */
 
 /* ----------------- 
-   Main Container
+   ¿¿¿¿
 ----------------- */
-#CV{
-    display: flex;
-    flex-direction: row;
-}
 
-
-#decoration{
-    width: 120px;
+#selfie{
+    width: 150px;
 }
