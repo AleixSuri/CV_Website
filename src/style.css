@@ -14,12 +14,9 @@ body{
 
 #name{
     font-size: 60px;
+    font-weight: bold;
 }
 
 header{
     background-color: #212121;
-}
-
-decoration{
-
 }
