@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#name{
+    font-size: 40px;
+}
