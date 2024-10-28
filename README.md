@@ -4,7 +4,7 @@ My personal website showcasing my CV, built with HTML and CSS, highlighting my s
 - Project analysis, User profile: create a user persona for your website
 - Project analysis, Information architecture: describe using around 200 words (minimum) how you have distributed the information of the page.
 - Project analysis, Visual design: describe using around 200 words (minimum) the main decisions you have made for the visual design.
-- Link to the Figma project  -->  https://www.figma.com/design/vS0zd14uoSmYGbvak5WIpH/CV-Vitae?t=QDtKE5SCqGr7R1XL-1 
+- Link to the Figma project  -->  https://www.figma.com/design/Haa9QOjcHZycUBXDqjk8Li/CV?node-id=0-1&t=0Rjn0nCRKwavdkRl-1
 - Link to the WebSite -->  https://aleixsuri.github.io/CV_Website/
 
 
