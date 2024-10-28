@@ -1,8 +1,11 @@
+/* Elements settings */
+
 /* ----------------- 
-   Container
+   Main Container
 ----------------- */
 #CV{
     display: flex;
+    flex-direction: row;
 }
 
 
@@ -11,6 +14,7 @@
 ----------------- */
 #firstFrame{
     background-color: #212121;
+    
 }
 
 #midFrame{
@@ -21,18 +25,24 @@
     background-color: #A01111;
 }
 
-#firsFrame, #lastFrame{
-    width: 25%;
+#firstFrame,#midFrame,#lastFrame {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 35px;
 }
 
 
 /* ----------------- 
     Profile img
 ----------------- */
+.intro{
+    display: flex;
+    align-items: center;
+}
+
 #selfie{
-    width: 136px;
-    height: 165px;
-    float: left;;
+    width: 150px;
+    padding-right: 25px;
 }
 
 
@@ -41,12 +51,16 @@
 ----------------- */
 #sections{
     list-style: none;
+    margin: 0;
+    padding-top: 90px;
+    padding-left: 90px;
 }
 
 #sections li{
     position: relative; /* Necessari per posicionar el pseudo-element */
     padding-left: 35px; /* Espai a l'esquerra per al cercle */
-    margin-bottom: 10px; /* Espai entre els elements de la llista */
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 #sections li::before{
@@ -77,6 +91,27 @@
     margin-right: 10px;
 }
 
+
+/* ----------------- 
+   Profile text
+----------------- */
+.profileText{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+
+/* ----------------- 
+   Education
+----------------- */
+.education div div{
+    margin-bottom: 50px;
+}
+
+
+/* ----------------- 
+   Skills
+----------------- */
 
 /* ----------------- 
    Social Media
