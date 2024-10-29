@@ -30,25 +30,23 @@
         </div>
 
         <!-- Img & Name -->
-        <div>
-            <div class="prPic">
-                <div class="backgroundImg">
-                    <img id="selfie" src="img/selfie.jpg" alt="Selfie of me"> 
-                </div>
-                <p id="name">Aleix Suriñach</p>
-            </div> 
+        <div class="imgName">
+            <div class="backgroundImg">
+                <img id="selfie" src="img/selfie.jpg" alt="Selfie of me"> 
+            </div>
+            <p id="name">Aleix Suriñach</p>
         </div>
 
-        <img id="decoration" src="img/rune.png" alt="Image of a rune">
+        <div class="decoration"><img id="decoration" src="img/rune.png" alt="Image of a rune"></div>
     </header>
 
     
     <main>
         <!-- Container 1 (Profile, Education, Skills)-->
-        <section>
+        <section class="aboutMe">
             <!-- Profile -->
             <div>
-                <div>
+                <div class="sectionTitle">
                     <img src="img/circle.png" alt="Circle img">
                     <p class="title">Profile</p>
                 </div>
@@ -65,7 +63,7 @@
             
             <!-- Education -->
             <div>
-                <div>
+                <div class="sectionTitle">
                     <img src="img/circle.png" alt="Circle img">
                     <p class="title">Education</p>
                 </div>
@@ -91,7 +89,7 @@
         
             <!-- Skills -->
             <div>
-                <div>
+                <div class="sectionTitle">
                     <img src="img/circle.png" alt="Circle img">
                     <p class="title">Skills</p>
                 </div>
@@ -105,13 +103,12 @@
                     <p><b>Programming Languages: </b>Catalan (Native), Spanish (Native), English (Intermediate)</p> 
                 </div>
             </div>
-        
         </section>
     
         <!-- Container 2 (Projects)-->
-        <section>
+        <section class="projects">
+            <p class="title">Projects Done</p>
             <div>
-                <p class="title">Projects Done</p>
                 <p>ECO Application</p>
                 <ul>
                     <li>Client-Server Communication with TCP/IP socket in C</li>
@@ -145,19 +142,21 @@
     
     <!-- Social Media -->
     <footer>
-        <p class="title">Social Media</p>
-        
-        <div><a href="https://www.instagram.com/aleixsuri_/" target="_blank">
-            <img src="img/igIconB.png" alt="Instagram Icon">
-        </a></div>
-        
-        <div><a href="https://github.com/AleixSuri" target="_blank">
-            <img src="img/githubIconB.png" alt="GitHub Icon">
-        </a></div>
-        
-        <div><a href="https://www.linkedin.com/in/aleix-suriñach-cobos-a719021a8/" target="_blank">
-            <img src="img/linkedinIconB.png" alt="Linkedin Icon">
-        </a></div>
+        <div class="socialMedia">
+            <p class="title">Social Media</p>
+            
+            <div><a href="https://www.instagram.com/aleixsuri_/" target="_blank">
+                <img src="img/igIconB.png" alt="Instagram Icon">
+            </a></div>
+            
+            <div><a href="https://github.com/AleixSuri" target="_blank">
+                <img src="img/githubIconB.png" alt="GitHub Icon">
+            </a></div>
+            
+            <div><a href="https://www.linkedin.com/in/aleix-suriñach-cobos-a719021a8/" target="_blank">
+                <img src="img/linkedinIconB.png" alt="Linkedin Icon">
+            </a></div>
+        </div>
     </footer>
 </body>
 </html>

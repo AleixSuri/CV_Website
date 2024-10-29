@@ -15,10 +15,7 @@ body{
 #name{
     font-size: 60px;
     font-weight: bold;
-}
-
-#decoration{
-    width: 120px;
+    text-decoration: underline;
 }
 
 header{
@@ -26,13 +23,9 @@ header{
 }
 
 main{
-    background: linear-gradient(#212121, #06bcc1);
+    background: linear-gradient(to bottom, #212121, #06bcc1);
 }
 
 footer{
-    background: linear-gradient(#06bcc1, #BBA0B2 50%);
-}
-
-body img{
-    width: 10px;
+    background: linear-gradient(to bottom, #06bcc1, #BBA0B2 50%);
 }
