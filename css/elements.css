@@ -9,7 +9,7 @@ body{
    Header
 ----------------- */
 header{
-    padding: 32px 40px;
+    padding: 32px 40px 0 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -93,15 +93,16 @@ header{
 main{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
 }
 
-
-        /* ----------------- 
-            About Me
-        ----------------- */
 .sectionTitle{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-left: 280px;
+    margin-right: 150px;
 }
 
 .sectionTitle img{
@@ -110,6 +111,9 @@ main{
     height: 30px;
 }
 
+        /* ----------------- 
+            About Me
+        ----------------- */
 .aboutMe{
     margin: 10px;
     display: flex;
@@ -117,19 +121,70 @@ main{
 }
 
 .aboutMe div{
-    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
 }
+
+                /* ----------------- 
+                    Profile
+                ----------------- */
+.profileBlock{
+    border-top: 1px solid #ffffff;
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profileText{
+    max-width: 650px;
+}
+
+                /* ----------------- 
+                    Education
+                ----------------- */
+.educationBlock{
+    border-top: 1px solid #ffffff;
+    margin: 20px 30px;
+}
+
+
+
+
+                /* ----------------- 
+                    Skills
+                ----------------- */
+.skillsBlock{
+    border-top: 1px solid #ffffff;
+    margin: 20px 30px;
+}
+
+
+
 
 
         /* ----------------- 
             Projects
         ----------------- */
 .projects{
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     margin: 10px;
     padding: 20px 30px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    max-width: max-content;
 }
+
+.projectsBlock{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+
+}
+
 
 .projects img{
     width: 72px;
