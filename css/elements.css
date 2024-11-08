@@ -51,21 +51,18 @@ header{
     
 .backgroundImg{
     background-color: white;
-    border-radius: 15px;
-    width: fit-content;
-    height: fit-content;
-    overflow: hidden;
-
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 15px;
+    padding: 5px 5px;
     margin-right: 20px;
 }
 
 #selfie{
     width: 150px;
     border-radius: 20px;
+    justify-content: center;
 }
 
 
