@@ -3,6 +3,7 @@
 body{
     display: flex;
     flex-direction: column;
+    min-width: 1000px;
 }
 
 /* ----------------- 
@@ -11,7 +12,6 @@ body{
 header{
     padding: 32px 40px 0 40px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
         /* ----------------- 
@@ -21,6 +21,7 @@ header{
     display: flex;
     flex-direction: column;
     padding: 10px;
+    min-width: 300px;
 }
 
 .contactInfo div{
@@ -44,26 +45,27 @@ header{
             Img & Name
         ----------------- */
 .imgName{
-    display: flex;
-    flex-direction: row;    
+    display: flex;   
     align-items: center;
 }
     
 .backgroundImg{
+    background-color: white;
+    border-radius: 15px;
     width: fit-content;
     height: fit-content;
-    background-color: white;
-    border-radius: 20px;
+    overflow: hidden;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    padding: 6px 15px;
+    padding: 5px 15px;
     margin-right: 20px;
 }
 
 #selfie{
     width: 150px;
+    border-radius: 20px;
 }
 
 
@@ -94,15 +96,13 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .sectionTitle{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 280px;
-    margin-right: 150px;
+    margin-left: 180px;
 }
 
 .sectionTitle img{
@@ -120,49 +120,47 @@ main{
     flex-direction: column;
 }
 
-.aboutMe div{
+.profileBlock, .educationBlock, .skillsBlock{
+    border-top: 1px solid #ffffff;
+    padding: 10px;
+    margin: 20px 30px;
     display: flex;
-    flex-direction: row;
+    gap: 20px;
 }
 
                 /* ----------------- 
                     Profile
                 ----------------- */
 .profileBlock{
-    border-top: 1px solid #ffffff;
-    margin: 20px 30px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 
 .profileText{
-    max-width: 650px;
+    margin-left: 100px;
+    max-width: 645px;
 }
 
                 /* ----------------- 
                     Education
                 ----------------- */
-.educationBlock{
-    border-top: 1px solid #ffffff;
-    margin: 20px 30px;
+.education{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
 }
 
-
+.e1, .e2{
+    display: grid;
+    grid-template-columns: 35% 50%;
+}
 
 
                 /* ----------------- 
                     Skills
                 ----------------- */
-.skillsBlock{
-    border-top: 1px solid #ffffff;
-    margin: 20px 30px;
+.skills{
+    margin-left: 118px;
 }
-
-
-
-
 
         /* ----------------- 
             Projects
@@ -170,24 +168,39 @@ main{
 .projects{
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
-    margin: 10px;
-    padding: 20px 30px;
+    margin: 20px 30px;
+    padding-bottom: 50px;
+    
     display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: max-content;
 }
 
-.projectsBlock{
+.projectsTitle{
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
-
+    justify-content: center;
 }
 
+.projectsBlock{ 
+    display: grid;
+    grid-template-columns:  35% 35% 30%;
+}
 
-.projects img{
-    width: 72px;
+.projectsX{
+    margin: 40px;
+    text-align: center;
+    
+}
+
+.projectsX img{
+    width: 86px;
+}
+
+.projectsX a img{
+    transition: transform 0.3s;
+}
+
+.projectsX a:hover img{
+    transform: scale(1.3);
 }
     
 
@@ -195,11 +208,15 @@ main{
    Footer
 ----------------- */
 footer{
-    padding: 75px;
+    padding-bottom: 75px;
 }
 
 .socialMedia{
     text-align: center;
+}
+
+.socialMedia p{
+    color: #212121;
 }
 
 .socialMedia div{
