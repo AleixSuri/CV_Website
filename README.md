@@ -3,6 +3,39 @@ My personal website showcasing my CV, built with HTML and CSS, highlighting my s
 
 **Project analysis:**
 - User profile: create a user persona for your website
+
+    Name: Laura Gonzalez
+
+    Age: 30 years old
+
+    Occupation: Tech Recruiter at an IT Consulting Firm
+
+    Work Context: Laura works in a company focused on sourcing talent in the tech industry. Her role involves reviewing dozens of resumes daily, identifying candidates with the required technical skills,                      and conducting a preliminary screening for hiring managers. She specifically looks for candidates with web development, networking, and cybersecurity expertise.
+
+    Goals:
+        ·Find candidates with a strong technical profile who meet specific client needs.
+        ·Quickly view key skills and work experience of potential candidates.
+        ·Identify if the candidate has specific knowledge in programming languages, web development, and networking, as these are in-demand skills in the industry.
+
+    Needs:
+        ·Access relevant candidate information quickly without excessive navigation.
+        ·Get an overview of practical projects and work experiences that showcase the candidate's skills.
+        ·Assess the candidate’s suitability based on both technical skills and the personal summary provided in the profile section.
+
+    Preferences:
+        ·Prefers clear, organized designs that allow her to see skills and work experience at a glance.
+        ·Values a well-balanced use of colors and icons to enhance navigation without overwhelming the page.
+        ·Favors responsive websites that are easy to view on her work computer or mobile devices.
+
+
+
+
+
+
+
+
+
+
 - Information architecture: describe using around 200 words (minimum) how you have distributed the information of the page.
 - Visual design: describe using around 200 words (minimum) the main decisions you have made for the visual design.
 
