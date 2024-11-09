@@ -2,30 +2,29 @@
 My personal website showcasing my CV, built with HTML and CSS, highlighting my skills, experience, and projects. The website is designed to provide a professional and interactive presentation of my qualifications, allowing potential employers or collaborators to easily navigate through my achievements and contact me.
 
 **Project analysis:**
-- User profile: create a user persona for your website
+User Profile: User Persona for CV Website
+Name: Laura Gonzalez
+Age: 30 years old
+Occupation: Tech Recruiter at an IT Consulting Firm
 
-    Name: Laura Gonzalez
+Work Context:
+Laura works in a company focused on sourcing talent in the tech industry. Her role involves reviewing dozens of resumes daily, identifying candidates with the required technical skills, and conducting a preliminary screening for hiring managers. She specifically looks for candidates with expertise in web development, networking, and cybersecurity.
 
-    Age: 30 years old
+Goals:
 
-    Occupation: Tech Recruiter at an IT Consulting Firm
+Find candidates with a strong technical profile who meet specific client needs.
+Quickly view key skills and work experience of potential candidates.
+Identify if the candidate has specific knowledge in programming languages, web development, and networking, as these are in-demand skills in the industry.
+Needs:
 
-    Work Context: Laura works in a company focused on sourcing talent in the tech industry. Her role involves reviewing dozens of resumes daily, identifying candidates with the required technical skills,                      and conducting a preliminary screening for hiring managers. She specifically looks for candidates with web development, networking, and cybersecurity expertise.
+Access relevant candidate information quickly without excessive navigation.
+Get an overview of practical projects and work experiences that showcase the candidate's skills.
+Assess the candidate’s suitability based on both technical skills and the personal summary provided in the profile section.
+Preferences:
 
-    Goals:
-        ·Find candidates with a strong technical profile who meet specific client needs.
-        ·Quickly view key skills and work experience of potential candidates.
-        ·Identify if the candidate has specific knowledge in programming languages, web development, and networking, as these are in-demand skills in the industry.
-
-    Needs:
-        ·Access relevant candidate information quickly without excessive navigation.
-        ·Get an overview of practical projects and work experiences that showcase the candidate's skills.
-        ·Assess the candidate’s suitability based on both technical skills and the personal summary provided in the profile section.
-
-    Preferences:
-        ·Prefers clear, organized designs that allow her to see skills and work experience at a glance.
-        ·Values a well-balanced use of colors and icons to enhance navigation without overwhelming the page.
-        ·Favors responsive websites that are easy to view on her work computer or mobile devices.
+Prefers clear, organized designs that allow her to see skills and work experience at a glance.
+Values a well-balanced use of colors and icons to enhance navigation without overwhelming the page.
+Favors responsive websites that are easy to view on her work computer or mobile devices.
 
 
 
